@@ -14,7 +14,7 @@
     <SUITE FILE_PATH="coverage/notes$lucky_7.coverage" NAME="lucky 7 Coverage Results" MODIFIED="1543248394469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/notes$list_notes.coverage" NAME="list notes Coverage Results" MODIFIED="1543337135922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/notes$my_object__Tonatiuh.coverage" NAME="my object- Tonatiuh Coverage Results" MODIFIED="1550248112554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/notes$world_map_OOPS.coverage" NAME="world map OOPS Coverage Results" MODIFIED="1554737905177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/notes$world_map_OOPS.coverage" NAME="world map OOPS Coverage Results" MODIFIED="1554995669756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/notes$fix_it___tonatiuh.coverage" NAME="fix it - tonatiuh Coverage Results" MODIFIED="1543939723914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/notes$object_noteeeeez___Tonatiuh.coverage" NAME="object noteeeeez - Tonatiuh Coverage Results" MODIFIED="1550247763176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/notes$Tonatiuh___Mad_Lib.coverage" NAME="Tonatiuh - Mad Lib Coverage Results" MODIFIED="1540912825960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -22,6 +22,7 @@
     <SUITE FILE_PATH="coverage/notes$Tonatiuh___guess_game.coverage" NAME="Tonatiuh - guess game Coverage Results" MODIFIED="1542127129091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/notes$basic_python_notes.coverage" NAME="basic python notes Coverage Results" MODIFIED="1541085787248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/notes$inheritance.coverage" NAME="inheritance Coverage Results" MODIFIED="1552316484693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/notes$world_map_OOPS_Tuna.coverage" NAME="world map OOPS-Tuna Coverage Results" MODIFIED="1554995679980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -41,12 +42,12 @@
     <session id="-1186059444">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="67" />
+          <entry key="project.closed" value="71" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.103" value="1" />
           <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.23" value="1" />
@@ -72,7 +73,9 @@
           <entry key="project.open.time.49" value="2" />
           <entry key="project.open.time.51" value="2" />
           <entry key="project.open.time.52" value="1" />
+          <entry key="project.open.time.55" value="1" />
           <entry key="project.open.time.56" value="2" />
+          <entry key="project.open.time.58" value="1" />
           <entry key="project.open.time.59" value="4" />
           <entry key="project.open.time.61" value="1" />
           <entry key="project.open.time.63" value="1" />
@@ -83,29 +86,29 @@
           <entry key="project.open.time.75" value="2" />
           <entry key="project.open.time.79" value="2" />
           <entry key="project.open.time.83" value="1" />
-          <entry key="project.opened" value="68" />
+          <entry key="project.opened" value="71" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="pstat" value="1" />
-          <entry key="py" value="27" />
+          <entry key="py" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Profiler Session" value="1" />
-          <entry key="Python" value="27" />
+          <entry key="Python" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="21010" />
+          <entry key="py" value="21476" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="21010" />
+          <entry key="Python" value="21476" />
         </counts>
       </usages-collector>
     </session>
@@ -115,17 +118,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/world map OOPS.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Special_Random.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="222" column="42" selection-start-line="222" selection-start-column="42" selection-end-line="222" selection-end-column="42" />
-              <folding>
-                <marker date="1554738023701" expanded="true" signature="19:24" ph="..." />
-                <marker date="1554738023701" expanded="true" signature="136:145" ph="..." />
-                <marker date="1554738023701" expanded="true" signature="367:4365" ph="..." />
-                <marker date="1554738023701" expanded="true" signature="4386:6512" ph="..." />
-              </folding>
+            <state relative-caret-position="426">
+              <caret line="26" column="53" selection-start-line="8" selection-start-column="4" selection-end-line="26" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/world map OOPS-Tuna.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="244" column="107" selection-start-line="244" selection-start-column="107" selection-end-line="244" selection-end-column="107" />
             </state>
           </provider>
         </entry>
@@ -161,11 +167,12 @@
         <option value="$PROJECT_DIR$/fix it - tonatiuh.py" />
         <option value="$PROJECT_DIR$/object noteeeeez - Tonatiuh.py" />
         <option value="$PROJECT_DIR$/my object- Tonatiuh.py" />
-        <option value="$PROJECT_DIR$/Special_Random.py" />
         <option value="$PROJECT_DIR$/inheritance.py" />
         <option value="$PROJECT_DIR$/../world map dictionary _Tuna.py" />
         <option value="$PROJECT_DIR$/ITEMS-Tuna.py" />
+        <option value="$PROJECT_DIR$/Special_Random.py" />
         <option value="$PROJECT_DIR$/world map OOPS.py" />
+        <option value="$PROJECT_DIR$/world map OOPS-Tuna.py" />
       </list>
     </option>
   </component>
@@ -187,6 +194,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -198,7 +206,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -218,7 +225,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.world map OOPS">
+  <component name="RunManager" selected="Python.world map OOPS-Tuna">
     <configuration name="inheritance" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="notes" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -263,7 +270,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="object noteeeeez - Tonatiuh" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="world map OOPS-Tuna" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="notes" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -276,7 +283,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/object noteeeeez - Tonatiuh.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/world map OOPS-Tuna.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -330,19 +337,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.object noteeeeez - Tonatiuh" />
       <item itemvalue="Python.my object- Tonatiuh" />
       <item itemvalue="Python.world map dictionary _Tuna" />
       <item itemvalue="Python.world map OOPS" />
       <item itemvalue="Python.inheritance" />
+      <item itemvalue="Python.world map OOPS-Tuna" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.world map OOPS-Tuna" />
         <item itemvalue="Python.world map OOPS" />
         <item itemvalue="Python.world map dictionary _Tuna" />
         <item itemvalue="Python.inheritance" />
         <item itemvalue="Python.my object- Tonatiuh" />
-        <item itemvalue="Python.object noteeeeez - Tonatiuh" />
       </list>
     </recent_temporary>
   </component>
@@ -361,20 +368,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49508196" weight="0.3214826" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49508196" visible="true" weight="0.3267776" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50491804" side_tool="true" weight="0.28971255" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8729198" visible="true" weight="0.2409836" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8729198" weight="0.8360656" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3295082" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3295082" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.12708019" side_tool="true" weight="0.27868852" />
       <window_info anchor="bottom" id="Python Console" order="11" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
@@ -385,30 +393,6 @@
       <window_info anchor="right" id="SciView" order="4" weight="0.32980332" />
       <window_info anchor="right" id="Database" order="5" weight="0.32980332" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.496788" visible="true" weight="0.2579425" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" sideWeight="0.503212" side_tool="true" weight="0.24659607" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8729198" weight="0.23442623" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3295082" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.12708019" side_tool="true" weight="0.27868852" />
-      <window_info anchor="bottom" id="Python Console" order="11" />
-      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.32980332" />
-      <window_info anchor="right" id="Database" order="4" weight="0.32980332" />
-      <window_info anchor="right" id="Coverage" order="5" side_tool="true" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -508,13 +492,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Special_Random.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ITEMS-Tuna.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -524,14 +501,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/world map OOPS.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="222" column="42" selection-start-line="222" selection-start-column="42" selection-end-line="222" selection-end-column="42" />
-          <folding>
-            <marker date="1554738023701" expanded="true" signature="19:24" ph="..." />
-            <marker date="1554738023701" expanded="true" signature="136:145" ph="..." />
-            <marker date="1554738023701" expanded="true" signature="367:4365" ph="..." />
-            <marker date="1554738023701" expanded="true" signature="4386:6512" ph="..." />
-          </folding>
+        <state relative-caret-position="271">
+          <caret line="275" column="12" lean-forward="true" selection-start-line="275" selection-start-column="12" selection-end-line="275" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Special_Random.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="26" column="53" selection-start-line="8" selection-start-column="4" selection-end-line="26" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/world map OOPS-Tuna.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="244" column="107" selection-start-line="244" selection-start-column="107" selection-end-line="244" selection-end-column="107" />
         </state>
       </provider>
     </entry>

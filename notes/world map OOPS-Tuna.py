@@ -191,7 +191,7 @@ class Character(object):
 
 # items
 CD = Sword("Cactus Sword", "prickly cactus", 3, 1, True)
-CS = Sword("Claymore Sword", "clay", 2, 4, True)
+CS = Sword("Claymore Sword", "clay", 9, 4, True)
 HP = HealingConsumable("Healing Potion", "souls of degenerates", 20, 10, True)
 GS = ThrowingConsumable("Grenade shot", "explosive material", 15, 55, 12)
 GA = Axe("Golden Axe", "Gold", 20, 7, True)
@@ -209,44 +209,46 @@ PC = Cannon("Pirate cannon", "metal i guess", 90, 50)
 
 
 # characters
-c1 = Character("you", 1, SSH, None)
+c1 = Character("you", 10, SSH, None)
 c2 = Character("big boy", 100, CS, None)
 c3 = Character("Little birdie", 90909090909090909090, LB, None)
 c4 = Character("Diseased experiment", 45, CS, None)
-c5 = Character("biomass", 34, CS, None)
+c5 = Character("biomass", 0.5, CS, None)
 
 
 # i #
-A1 = Room("A1", None, "A2", None, None, "WhOa! holy crap! you seem to be in a hollow room the last thing you "
+A1 = Room("A1", None, "A2", None, None, " NOTE: still in a work in progress and please pick up the birb when you"
+                                        " see it.: WhOa! holy crap! you seem to be in a hollow room the last thing you "
                                         "remember was the fbi throwing you in some facility. according to a "
                                         "sign on the wall it says: Room A1, Duh!"
                                         " you can go south")
 
-A2 = Room("A2", "A1", "A3", None, None, "Room A2. you hear distant screams. its best to move on", [CS], [])
+A2 = Room("A2", "A1", "A3", None, None, "Room A2. you hear distant screams. its best to move on. yu can go"
+                                        "south")
 
 A3 = Room("A3", None, None, "A4", "A5", "The door behind you suddenly closes. "
                                         "You see a bird on a nearby table."
                                         " You see two doors. One to the east and one "
                                         "to the west. which will you choose", [LB], [])
 
-A4 = Room("A4", None, None, None, "A6", "The door shuts behind you. To your surprise, bloody corpses"
-                                        "litter the room. the bird seems concerned ")
+A4 = Room("A4", None, None, "A3", "A6", "The door shuts behind you. To your surprise, bloody corpses"
+                                        " litter the room.")
 A6 = Room("A6", "A7", None, None, None, "This room has no dead bodies. There is a table in the middle of the room"
                                         "with a bowl of seeds on it. the bird happily chows down but refuses to leave"
-                                        "you can go north")
+                                        " you can go north")
 A7 = Room("A7", None, None, None, None, "The room is Dark. You feel an evil presence watching you."
                                         "SNAP! you died lmao")
 # rd
 A5 = Room("A5", None, "A8", None, "A9", "the door suddenly shuts behind you. you see a shadow approach you"
                                         "The shadow is revealed to be an abomination of human beings meshed together"
-                                        "Their screams and moans makes the little bird chirp angrily"
-                                        "He makes quick work of the abomination. he seems satisfied with his kill")
+                                        "Their screams and moans makes you cringe because no one likes them"
+                                        "the birb makes quick work of it. it seems satisfied with its kill")
 
 A8 = Room("A8", None, None, None, None, "Oh whats this? cheap death because why not bye bye")
 A9 = Room("A9", None, None, None, "A10", "you see a sign that says: You're Halfway There!"                                                          
                                          "to the west is Room A10")
 A10 = Room("A10", None, None, None, "A11", "THis room seems to be empty. You can go west")
-A11 = Room("A11", None, None, None, "A12", "Another empty room. the bird chirps in confusion. you can go west")
+A11 = Room("A11", None, None, None, "A12", "Another empty room. you slap yourself confusion. you can go west")
 A12 = Room("A12", None, None, None, "A13", "Oh boy another empty room- oh look there's a camera man in the corner"
                                            "you can go west")
 A13 = Room("A13", None, None, None, "A14", "A bloody mass of flesh suddenly grabs you. the bird cuts you free and you"
@@ -256,8 +258,25 @@ A14 = Room("A14", None, None, None, "A15", "another empty room. you and the bird
                                            "you can go west")
 A15 = Room("A15", None, None, None, None, "The Door! you and the bird escape this weird place and end up in burger "
                                           "king")
-
-
+print("░░░░░░░░░░░░░░░░▄▄▄███████▄▄░░░░░░░░░░░░")
+print("░░░░░░░░░░░░░░▄███████████████▄░░░░░░░░░")
+print("░░░░░░░░░░░░░█▀▀▀▄░░░░█████▀▀███▄░░░░░░░")
+print("░░░░░░░░░░░░█░░▄░░█▄▄█░░░░▀▄▄█████░░░░░░")
+print("░░░░░░░░░▄▀▀▀▄▄▀▀▀▀▀▀▄░░▀░░█▀▀▀░▀██░░░░░")
+print("░░░░░░░▄▀░░░░░█░░░░░░▀▄▄▄▄█░░░░░░░▀▄░░░░")
+print("░░░░░░▄▀░░░░░▄█▀▄▄▄▄░░░░░▄░░░░░░░░░█░░░░")
+print("░░░░░░█░░░░░▄█▀▄▄▄▄▄▄▄▄▄▀▀░░░░░░░░░▀▄░░░")
+print("░░░░░█░░░░░░▀█▄░░░░░░░░░░░░░░░░░░░░░█░░░")
+print("░░░░░█░░░░░░░░▀▄░░░░░░░░░░░░░░░░░░░░█░░░")
+print("░░░░░█░░░░░░░░▄█░░░░░░░░░░░░░░░░░░░░█░░░")
+print("░░░░░█░░░░░░▄▀░░░░░░░░▀▄░░░░░░░░░░░░█░░░")
+print("░░░░░█░░░░░░▀▄░░░▄░░░░░█░░░░░░░░░░░░█░░░")
+print("░░░░░█░░░░░░░░▀▀▀▀▀█▄▄▀░░░░░░░░░░░░░█░░░")
+print("░░░░░█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▄██░░")
+print("░░░░░█▄░░░░░░░░░░░░░░░░░░░░░░░░░░▄▀▀▄▀▄▄")
+print("░░░░▄█▀▄░░░░░░░░░░░░░░░░░░░░░░▄▄▀░░▄▀░░░")
+print("░▄░▀░░█░▀▄▄░░░░░░░░░░░░░░░▄▄▄▀░░░▄▀░░░░░")
+print("▀░░░░░░▀▄░░▀▄░░░░░░░░▄▄▄▀▀░░░░▄▀▀░░░░░░░")
 #
 player = Player(A1)
 
@@ -267,9 +286,7 @@ short_directions = ['n', 's', 'e', 'w', 'u', 'd']
 playing = True
 
 #
-c1.attack(c2)
-c4.attack(c3)
-c3.attack(c4)
+
 # control
 while playing:
     print(player.current_location.name)
@@ -286,7 +303,7 @@ while playing:
     command = input(">_")
     if command.lower() in short_directions:
         pos = short_directions.index(command.lower())
-        command = directions(pos)
+
     if command.lower() in ['q', 'quit', 'exit']:
         playing = False
     elif command.lower() in directions:
