@@ -217,47 +217,51 @@ c5 = Character("biomass", 0.5, CS, None)
 
 
 # i #
-A1 = Room("A1", None, "A2", None, None, " NOTE: still in a work in progress and please pick up the birb when you"
-                                        " see it.: WhOa! holy crap! you seem to be in a hollow room the last thing you "
-                                        "remember was the fbi throwing you in some facility. according to a "
+A1 = Room("A1", None, "A2", None, None, "WhOa! holy crap! you seem to be in a hollow room the last thing you "
+                                        "remember was the fbi throwing you in some facility. "
+                                        "according to a "
                                         "sign on the wall it says: Room A1, Duh!"
-                                        " you can go south")
+                                        " you can go south", [JH], [])
 
-A2 = Room("A2", "A1", "A3", None, None, "Room A2. you hear distant screams. its best to move on. yu can go"
-                                        "south")
+A2 = Room("A2", "A1", "A3", None, None, "Room A2. you hear distant screams. a chill runs down your spine."
+                                        " Its not a good idea to sick around, might as well move on"
+                                        " you can go south.")
 
 A3 = Room("A3", None, None, "A4", "A5", "The door behind you suddenly closes. "
                                         "You see a bird on a nearby table."
                                         " You see two doors. One to the east and one "
                                         "to the west. which will you choose", [LB], [])
 
-A4 = Room("A4", None, None, "A3", "A6", "The door shuts behind you. To your surprise, bloody corpses"
-                                        " litter the room.")
+A4 = Room("A4", None, None, "A6", "A3", ". To your surprise, bloody corpses"
+                                        " litter the room.", [JB], [])
 A6 = Room("A6", "A7", None, None, None, "This room has no dead bodies. There is a table in the middle of the room"
                                         "with a bowl of seeds on it. the bird happily chows down but refuses to leave"
-                                        " you can go north")
+                                        " you can go north", [GA], [])
 A7 = Room("A7", None, None, None, None, "The room is Dark. You feel an evil presence watching you."
                                         "SNAP! you died lmao")
 # rd
 A5 = Room("A5", None, "A8", None, "A9", "the door suddenly shuts behind you. you see a shadow approach you"
                                         "The shadow is revealed to be an abomination of human beings meshed together"
                                         "Their screams and moans makes you cringe because no one likes them"
-                                        "the birb makes quick work of it. it seems satisfied with its kill")
+                                        "the birb makes quick work of it. it seems satisfied with its kill",)
 
 A8 = Room("A8", None, None, None, None, "Oh whats this? cheap death because why not bye bye")
 A9 = Room("A9", None, None, None, "A10", "you see a sign that says: You're Halfway There!"                                                          
-                                         "to the west is Room A10")
+                                         "to the west is Room A10", [SS], [])
 A10 = Room("A10", None, None, None, "A11", "THis room seems to be empty. You can go west")
-A11 = Room("A11", None, None, None, "A12", "Another empty room. you slap yourself confusion. you can go west")
+A11 = Room("A11", None, None, None, "A12", "Another empty room. you slap yourself confusion."
+                                           " wowie this game sucks. you can go west", [JC], [])
 A12 = Room("A12", None, None, None, "A13", "Oh boy another empty room- oh look there's a camera man in the corner"
+                                           "the man says: Hullo! ill kill ya!"
                                            "you can go west")
 A13 = Room("A13", None, None, None, "A14", "A bloody mass of flesh suddenly grabs you. the bird cuts you free and you"
                                            "dash to the only door to the west as you hear a loud screech"
                                            "you can go west")
-A14 = Room("A14", None, None, None, "A15", "another empty room. you and the bird run"
-                                           "you can go west")
+A14 = Room("A14", None, None, None, "A15", "another empty room. you and the bird run, there's nothing more you can do"
+                                           "you can go west", [JL], [])
 A15 = Room("A15", None, None, None, None, "The Door! you and the bird escape this weird place and end up in burger "
-                                          "king")
+                                          "king. wll i guess you passed the game, only if you acquired the LIL"
+                                          " BIRDIE, and all the JUNK armor")
 print("░░░░░░░░░░░░░░░░▄▄▄███████▄▄░░░░░░░░░░░░")
 print("░░░░░░░░░░░░░░▄███████████████▄░░░░░░░░░")
 print("░░░░░░░░░░░░░█▀▀▀▄░░░░█████▀▀███▄░░░░░░░")
@@ -282,7 +286,7 @@ player = Player(A1)
 
 
 directions = ['north', 'south', 'east', 'west']
-short_directions = ['n', 's', 'e', 'w', 'u', 'd']
+'''short_directions = ['n', 's', 'e', 'w', 'u', 'd']'''
 playing = True
 
 #
@@ -301,8 +305,19 @@ while playing:
         if pickup == "no":
             print("you refuse to pick up the item. move on")
     command = input(">_")
-    if command.lower() in short_directions:
-        pos = short_directions.index(command.lower())
+    '''if command.lower() in short_directions:
+        pos = short_directions.index(command.lower()'''
+    if [LB, JC, JB, JH, JL] in player.inventory:
+        print("Oh wow! you actually found all the items. congrats! now go back home you've wasted enough"
+              " time here")
+        playing = False
+    if command.lower() in ['give up']:
+        print("you give up and pass the game. not only did you give up but you cheated"
+              " and gained nothing in return. good job degenerate")
+        playing = False
+    if command.lower() in ['attack']:
+        print(" you're too much of a little wimp to actually attack my dude, this is the reason"
+              " why karen left you, and she took the kids")
 
     if command.lower() in ['q', 'quit', 'exit']:
         playing = False
